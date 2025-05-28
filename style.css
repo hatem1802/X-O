@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,502;1,502&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 502;
+    font-style: normal;
+}
+
+#container {
+    background: #ffffff;
+    display: flex;
+    width: 520px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.square {
+    width: 166px;
+    height: 166px;
+    background: #00bfff;
+    font-size: 130px;
+    font-weight: 900;
+    color: seashell;
+    cursor: pointer;
+    text-align: center;
+}
+
+.square:hover {
+    background: #5bd6ff;
+}
+
+.square img {
+    width: 100%;
+}
+
+#winner {
+    background: #f200ff;
+    width: 50%;
+    margin: 25px auto;
+    padding: 25px 50px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
